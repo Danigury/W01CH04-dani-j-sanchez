@@ -40,17 +40,22 @@ p {
 }
 
 .main-plan {
-  background-color: hsla(0, 0%, 95%, 0.562);
+  background-color: #f8f9fe;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  width: 270px;
-  height: 70px;
-  border-radius: 8% 8% 8% 8px;
+  width: 300px;
+  height: 100px;
+  border-radius: 15px 15px 15px 15px;
   margin: 10px;
-  margin-left: 65px;
+  margin-left: 50px;
+}
+
+.main__imagen-chica {
+  width: 400px;
+  height: 180px;
 }
 
 .buttons {
@@ -60,11 +65,59 @@ p {
   align-items: center;
 }
 
+.buttons {
+  width: 300px;
+  margin-top: 15px;
+  margin-left: 35px;
+  border: none;
+  height: auto;
+}
+
+.button-payment {
+  width: 300px;
+  background-color: #382adf;
+  height: 40px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 15px 15px 15px 15px;
+}
+.button-cancel {
+  background-color: #ffffff;
+  height: 40px;
+  color: #646464;
+  font-weight: bolder;
+}
+
 .main-article {
   padding: 5px 50px 20px 50px;
   margin: 0;
 }
 
 .main-plan__text {
-  margin: 40px 10px 20px 40px;
+  margin: 20px 80px 20px 5px;
+}
+
+.text-price {
+  color: rgb(124, 122, 122);
+  margin-top: 0;
+}
+
+.text-plan {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.button-change {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #382adf;
+  text-decoration-line: underline;
+}
+
+.main-plan--icon {
+  margin-left: 0;
 }
